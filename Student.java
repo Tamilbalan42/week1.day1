@@ -15,6 +15,7 @@ public class Student {
 	}
 	 public void deptname() {
 		String name ="civil";
+		System.out.println(name);
 	}
 	public static void main(String[] args) {
 		Student object = new Student();
@@ -22,5 +23,7 @@ public class Student {
 		System.out.println("Roll no: "+object.rollno);
 		object.regnumber();
 		object.College();
+		object.deptname();
+		
 	}
 }
